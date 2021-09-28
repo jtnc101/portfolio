@@ -22,3 +22,7 @@
 
     border-radius: 50%;
 }
+
+.my-name {
+    color: hsl(231, 92%, 51%);
+}
