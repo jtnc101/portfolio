@@ -1,4 +1,5 @@
 @import "mainPage.css";
+@import "projectsPage.css";
 
 * {
     padding: 0;
@@ -41,8 +42,4 @@
     cursor: pointer;
     font-weight: bold;
     
-}
- 
-.projects-container {
-    height: 100vh;
 }
