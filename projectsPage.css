@@ -1,5 +1,5 @@
 .card-image {
-    width: 400px;
+    width: 500px;
 }
 
 .projects-card {
@@ -7,10 +7,15 @@
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 500px;
-    height: 300px;
-    margin-top: 20px;
+    height: 400px;
+    margin-top: 50px;
+    animation: transform 1s;
 }
 
+.projects-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .card-text {
     /* background-color: hsl(0, 0%, 93%); */
     background-color: hsl(231, 92%, 90%);
