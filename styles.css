@@ -1,5 +1,11 @@
 @import "mainPage.css";
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .main-page-container {
     background-color: hsla(0, 0%, 0%, 60%);
     background-image: url(images/10.JPG);
