@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lora', serif;
 }
 
 .main-page-container {
@@ -19,6 +20,7 @@
     display: flex;
     justify-content: right;
     list-style-type: none;
+    height: 10%;
 }
 
 .navigation-item {   
