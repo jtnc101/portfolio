@@ -20,7 +20,7 @@
 }
 .card-text {
     padding: 20px;
-    background-color: hsl(231, 92%, 90%);
+    background-color: hsl(231, 92%, 95%);
     flex-grow: 1;
     text-decoration: none;
     color: inherit;
@@ -32,6 +32,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .card-link {
