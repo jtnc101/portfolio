@@ -10,8 +10,8 @@
 }
 
 .main-page-container {
-    background-color: hsla(0, 0%, 0%, 60%);
-    background-image: url(images/10.JPG);
+    background-color: hsla(0, 0%, 0%, 80%);
+    background-image: url(images/screen2.JPG);
     background-blend-mode: multiply;
     background-size: cover;
     width: auto;
@@ -32,7 +32,7 @@
 .navigation-item a {
     color: white;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     animation: transform 0.5s;
 }
 
