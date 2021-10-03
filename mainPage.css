@@ -1,23 +1,23 @@
-
+/* 
 .title-container {
    
-    /* margin-top: 20vh; */
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     color: white;
-}
+} */
 
 .title {
-    font-size: 3em;
+    font-size: 2em;
     margin: 5%;
     text-align: center;
 }
 @media screen and ( min-width: 770px ) {
 
     .title {
-        font-size: 4rem;
+        font-size: 3rem;
         width: 30vw;
         /* flex: 30%; */
         min-width: 300px;
@@ -30,7 +30,7 @@
 @media screen and ( min-width: 600px ) and (max-width: 769px) {
 
     .title {
-        font-size: 3rem;
+        font-size: 2rem;
         width: 30vw;
         /* flex: 30%; */
         min-width: 300px;
@@ -45,6 +45,9 @@
     min-width: 200px;
     min-height: 200px;
     border-radius: 50%;
+    animation-name: myImageAnimation;
+    animation-duration: 1s;
+
     /* margin: 5%; */
 }
 
@@ -53,6 +56,9 @@
     font-size: 1.5em;
     font-weight: 400;
     font-family: 'Ephesis', cursive;
+    animation-name: nameAnimation;
+    animation-duration: 2s;
+    
 }
 
 .main-sub-container {
@@ -60,5 +66,40 @@
     justify-content: center;
     align-items: center;
     height: 90%;
+    flex-wrap: wrap;
+    color: white;
     
+}
+
+@keyframes myImageAnimation {
+    0% {
+        min-width: 0; min-height: 0;
+    }
+
+    25% { min-width: 50px; min-height: 50px;}
+    50% { min-width: 100px; min-height: 100px;}
+    75% { min-width: 150px; min-height: 150px;}
+    100% { min-width: 200px; min-height: 200px;}
+}
+
+@keyframes nameAnimation {
+
+    0% { font-size: 0em;}
+    10% { font-size: 0.2em;}
+    25% { font-size: .5em;}
+    35% { font-size: 0.7em;}
+    50% { font-size: 1em;}
+  
+}
+
+.description {
+    animation-name: descriptionAnimation;
+    animation-duration: 2s;
+}
+@keyframes descriptionAnimation {
+    
+    /* 0% { font-size: 0em;} */
+    50% { font-size: 0em;}
+    75% { font-size: 0.5em;}
+    100% { font-size: 1em;}
 }
