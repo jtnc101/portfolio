@@ -11,7 +11,7 @@
 
 .main-page-container {
     background-color: hsla(0, 0%, 0%, 80%);
-    background-image: url(/images/screen2.jpg);
+    background-image: url('https://jtnc101.github.io/portfolio/images/screen2.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     width: auto;
