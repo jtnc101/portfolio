@@ -1,12 +1,12 @@
 .card-image {
-    width: 500px;
+    width: 400px;
 }
 
 .projects-card {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 500px;
+    width: 400px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left : 20px;
