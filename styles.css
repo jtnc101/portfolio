@@ -1,12 +1,14 @@
 @import "mainPage.css";
 @import "projectsPage.css";
 @import "footer.css";
+@import "aboutPage.css";
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lora', serif;
+    /* font-family: 'Lora', serif; */
+    font-family: 'Benne', serif;
 }
 
 .main-page-container {
