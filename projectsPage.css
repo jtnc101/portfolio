@@ -28,11 +28,12 @@
 
 .projects-container {
     display: flex;
+    flex: 92%;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    background-color: hsl(0, 0%, 95%);
+
 }
 
 .card-link {
@@ -41,10 +42,53 @@
 }
 
 .projects-title {
-    display: block;
-    background-color: hsl(0, 0%, 95%);
+    flex: 8%;
+    max-width: 150px;
+    
+    display: none;   
+    flex-direction: column; 
     text-align: center;
     font-size: 3em;
     padding: 50px;
     font-weight: bold;
+    color: white;
+}
+
+.projects-page {    
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/screen4.jpg");
+    background-size: cover;
+    background-color: hsla(0, 100%, 2%,80%);
+    background-blend-mode: multiply;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+
+.projects-title-letter {
+    flex: 16%;
+    height: 16%;
+}
+
+.projects-top-title {
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+
+@media screen and (min-width: 600px ) {
+    .projects-top-title {
+        display: none;
+    }
+
+    .projects-page {
+        flex-direction: row;        
+    }
+
+    .projects-title {
+        display: flex;
+    }
 }

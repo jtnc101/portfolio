@@ -1,38 +1,93 @@
 .footer {
-    background-color: hsl(231, 92%, 75%);
-    /* height: 200px; */
-    align-items: center;
+    background-image : linear-gradient( to right, hsl(231, 92%, 75%), hsl(231, 92%, 60%) );
+    
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
+    
+   
 }
 
 .footer-title {
-    font-size: 3em;
+    flex: 8%;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
     font-weight: bold;
-    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px 0px;
 }
 
-.github-link , .email-link {
+.github-link , .email-link , .phone-link {
     color: inherit;
     text-decoration: none;
     animation: transform 1s;
 }
 
-.github-link:hover , .email-link:hover {
+.github-link:hover , .email-link:hover , .phone-link:hover {
     display: inline-block;
     transform: scale(1.3);
-    color: white;
+    color:hsl(231, 92%, 50%)
 }
 
-.contact-container .fa-github , .fa-envelope, .fa-phone {
+.contact-sub-container .fa-github , .fa-envelope, .fa-phone {
     font-size: 2em;
     margin: 10px;
+}
+
+.contact-sub-container {
+    display: flex;
+    flex: 50%;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    background-color: hsl(60, 100%, 80%);
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-title-letter {
+    color:hsl(231, 92%, 50%);
+    font-weight: 900;
 }
 
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    flex: 92%;
 }
+
+.contact-title-container {
+    flex: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.fa-handshake  {
+    flex: 30%;
+    width: 30%;
+    font-size: 6em;
+    color: white;
+    text-align: center;
+}
+
+.contact-title {
+    flex: 70%;
+    width: 70%;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+}
+
