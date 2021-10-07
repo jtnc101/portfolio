@@ -63,6 +63,7 @@
     font-size: 2em;
     /* color: hsl(60, 100%, 80%); */
     color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .skills-card {
@@ -94,7 +95,7 @@
     height: 20%;
     font-weight: 900;
     color:hsl(231, 92%, 50%);
-    
+    text-shadow: 2px 2px 4px #000000;
     font-size: 3em;
 }
 

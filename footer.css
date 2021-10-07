@@ -59,6 +59,9 @@
 .contact-title-letter {
     color:hsl(231, 92%, 50%);
     font-weight: 900;
+    flex: 14%;
+    height: 14%;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .contact-container {
@@ -81,6 +84,7 @@
     font-size: 6em;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 .contact-title {
