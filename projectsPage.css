@@ -1,12 +1,12 @@
 .card-image {
-    width: 400px;
+    width: 300px;
 }
 
 .projects-card {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 400px;
+    width: 300px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left : 20px;
@@ -83,6 +83,7 @@
     width: 100%;
     text-align: center;
     font-size: 3em;
+    padding: 20px;
 }
 
 @media screen and (min-width: 600px ) {
@@ -96,5 +97,9 @@
 
     .projects-title {
         display: flex;
+    }
+
+    .card-image, .projects-card {
+        width: 400px;
     }
 }
