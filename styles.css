@@ -18,31 +18,44 @@
     background-size: cover;
     width: auto;
     height: 100vh;
+    min-height: 1000px;
 }
 
 .navigation-bar {
+    width: 100%;
     display: flex;
     justify-content: right;
     list-style-type: none;
-    height: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    right: 0;
+    background-color: hsl(231, 92%, 95%);
 }
 
 .navigation-item {   
-    margin: 2% 3%;
+    margin: 10px 20px;
+    font-weight: bold;
 }
 
 .navigation-item a {
-    color: white;
+    color: hsl(230, 94%, 28%);
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     animation: transform 0.5s;
 }
 
 .navigation-item a:hover {
     display: inline-block;
-    transform: scale(1.2);
-    color: hsl(231, 82%, 45%);
+    transform: scale(1.4);
+    color: hsl(231, 82%, 65%);
     cursor: pointer;
     font-weight: bold;
     
+}
+
+@media screen and (min-width: 600px ) {
+    
+    .navigation-item a {
+        font-size: 1.2em;
+    }
 }

@@ -1,18 +1,19 @@
 .about-title {
     display: flex;
-    flex: 8%;
-    max-width: 150px;
-    flex-direction: column;
+    flex: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     /* font-weight: bold; */
     background-color: hsl(231, 92%, 90%);
 
 }
 
 .about-container {
-    flex: 80%;
-    width: 80%;
+    flex: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
@@ -61,7 +62,7 @@
     display: block;
     /* flex: 100%;
     width: 100%; */
-    font-size: 3em;
+    font-size: 2.5em;
     /* color: hsl(60, 100%, 80%); */
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -88,6 +89,7 @@
 
 .about {
     display: flex;
+    flex-direction: column;
 }
 
 
@@ -98,7 +100,7 @@
     color: hsl(230, 94%, 28%);
     text-shadow: 2px 2px 4px #000000;
     font-size: 3em;
-    padding: 50px 0px;
+    padding: 10px 0px;
 }
 
 .about-description-container {
@@ -112,6 +114,7 @@
     font-size: 6em;
     text-align: center;
     margin: 20px;
+    color:hsl(231, 92%, 30%);
 }
 
 @media  screen and ( min-width: 600px ) {
@@ -120,4 +123,32 @@
         flex-direction: row;
     }
     
+    .about {
+        flex-direction: row;
+    }
+
+    .about-title {
+        display: flex;
+        flex: 8%;
+        max-width: 150px;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        /* font-weight: bold; */
+        background-color: hsl(231, 92%, 90%);
+    
+    }
+
+    .title-letter {
+        padding: 50px 0px;
+    }
+
+    .about-container {
+        flex: 80%;
+        width: 80%;
+    }
+
+    .skills-title {
+        font-size: 3em;
+    }
 }

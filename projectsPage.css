@@ -78,14 +78,20 @@
 
 .projects-top-title {
     color: hsl(230, 94%, 28%);
-    background-color: white;
-    display: block;
+    background-color: hsl(231, 92%, 90%);
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
     text-align: center;
     font-size: 3em;
     padding: 20px;
 }
 
+.projects-top-title-letter {
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #000000;
+
+}
 @media screen and (min-width: 600px ) {
     .projects-top-title {
         display: none;
