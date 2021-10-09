@@ -51,7 +51,9 @@
     font-size: 3em;
     padding: 50px;
     font-weight: bold;
-    color: white;
+    color: hsl(230, 94%, 28%);
+    background-color: hsl(231, 92%, 90%);
+    
 }
 
 .projects-page {    
@@ -61,18 +63,22 @@
     background-size: cover;
     background-color: hsla(0, 100%, 2%,80%);
     background-blend-mode: multiply;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
    
 }
 
 .projects-title-letter {
     flex: 16%;
     height: 16%;
+    text-shadow: 2px 2px 4px #000000;
+    
 }
 
+
 .projects-top-title {
-    color: white;
+    color: hsl(230, 94%, 28%);
+    background-color: white;
     display: block;
     width: 100%;
     text-align: center;

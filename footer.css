@@ -1,6 +1,6 @@
 .footer {
-    background-image : linear-gradient( to right, hsl(231, 92%, 75%), hsl(231, 92%, 60%) );
-    
+    /* background-image : linear-gradient( to right, hsl(231, 92%, 75%), hsl(231, 92%, 60%) ); */
+    background-image : linear-gradient( to right, hsl(231, 30%, 60%), hsl(231, 30%, 35%) );
     display: flex;
     
    
@@ -14,12 +14,12 @@
     align-items: center;
     font-size: 2em;
     font-weight: bold;
-    background-color: white;
+    background-color: hsl(231, 92%, 90%);
     padding: 20px 0px;
 }
 
 .github-link , .email-link , .phone-link {
-    color: inherit;
+    color: hsl(231, 92%, 50%);
     text-decoration: none;
     animation: transform 1s;
 }
@@ -27,12 +27,19 @@
 .github-link:hover , .email-link:hover , .phone-link:hover {
     display: inline-block;
     transform: scale(1.3);
-    color:hsl(231, 92%, 50%)
+    color:black;
+    font-weight: 900;
+}
+
+.github-link:hover .fa-github, .email-link:hover .fa-envelope, .phone-link:hover .fa-phone{
+
+    color:black;
 }
 
 .contact-sub-container .fa-github , .fa-envelope, .fa-phone {
-    font-size: 2em;
-    margin: 10px;
+    font-size: 1.3em;
+    margin: 5px;
+    color:hsl(231, 92%, 50%);
 }
 
 .contact-sub-container {
@@ -57,7 +64,7 @@
 }
 
 .contact-title-letter {
-    color:hsl(231, 92%, 50%);
+    color: hsl(230, 94%, 28%);
     font-weight: 900;
     flex: 14%;
     height: 14%;
@@ -81,7 +88,7 @@
 .fa-handshake  {
     flex: 30%;
     width: 30%;
-    font-size: 6em;
+    font-size: 3em;
     color: white;
     text-align: center;
     padding: 10px;
@@ -91,7 +98,22 @@
     flex: 70%;
     width: 70%;
     color: white;
-    font-size: 2em;
-    padding: 20px;
+    font-size: 1.5em;
+    /* padding: 5% 10%; */
+
 }
 
+@media screen and (min-width: 600px) {
+    .fa-handshake {
+        font-size: 6em;
+    }
+
+    .contact-title {
+        font-size: 2em;
+    }
+
+    .contact-sub-container .fa-github , .fa-envelope, .fa-phone {
+        font-size: 2em;
+        margin: 10px;
+    }
+}
