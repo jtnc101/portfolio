@@ -84,6 +84,7 @@
     flex: 50%;
     min-height: 50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin: 50px;
 
@@ -144,5 +145,9 @@
         flex-direction: column;
         flex: 92%;
         height: 100%;
+    }
+
+    .contact-title-container {
+        flex-direction: row;
     }
 }
