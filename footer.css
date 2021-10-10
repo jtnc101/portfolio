@@ -1,5 +1,4 @@
 .footer {
-    /* background-image : linear-gradient( to right, hsl(231, 92%, 75%), hsl(231, 92%, 60%) ); */
     background-image : linear-gradient( to right, hsl(231, 30%, 60%), hsl(231, 30%, 35%) );
     display: flex;
     flex-direction: column;
@@ -76,25 +75,28 @@
 .contact-container {
     display: flex;
     flex-direction: column;
-    flex: 92%;
+    flex: 90%;
+    width: 90%;
     flex-wrap: wrap;
 }
 
 .contact-title-container {
     flex: 50%;
-    height: 50%;
+    min-height: 50%;
     display: flex;
     align-items: center;
+    margin: 50px;
 
 }
 
 .fa-handshake  {
     flex: 30%;
     width: 30%;
-    font-size: 3em;
+    font-size: 4em;
     color: white;
     text-align: center;
     padding: 10px;
+    color:hsl(231, 92%, 30%);
 }
 
 .contact-title {
@@ -102,23 +104,30 @@
     width: 70%;
     color: white;
     font-size: 1.5em;
-    /* padding: 5% 10%; */
 
 }
 
 @media screen and (min-width: 600px) {
     .fa-handshake {
         font-size: 6em;
-        color:hsl(231, 92%, 30%);
+        
     }
 
     .contact-title {
         font-size: 2em;
+        flex: 50%;
+        height: 50%;
     }
 
     .contact-sub-container .fa-github , .fa-envelope, .fa-phone {
         font-size: 2em;
         margin: 10px;
+
+    }
+
+    .contact-sub-container {
+        flex: 50%;
+        height: 50%;
     }
 
     .footer {
@@ -130,5 +139,11 @@
         flex: 8%;
         max-width: 100px;
         font-size: 2em;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        flex: 92%;
+        height: 100%;
     }
 }
